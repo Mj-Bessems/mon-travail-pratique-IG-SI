@@ -1,0 +1,157 @@
+
+body {
+    background: #0c142f;
+    }
+
+.main{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+h1{
+    font-family: "Roboto Mono", monospace ;
+    color: aliceblue;
+    font-size: 70px;
+}
+
+label{
+    font-family: "Roboto Mono", monospace;
+    color: aliceblue;
+}
+.message-accueil{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    width: 100px;
+}
+
+.button, .button::after {
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        }
+
+.button {
+        background: none;
+        border: 5px solid aliceblue;
+        border-radius: 10px;
+        color: rgba(137, 236, 153, 0.971);
+        display: block;
+        font-size: 1.6em;
+        font-weight: bold;
+        margin: 40px auto;
+        padding: 1em 2em;
+        position: relative;
+        text-transform: uppercase;
+        }
+.button3{
+    font-size: 1.2em;
+    padding: .2em 4em;
+
+}
+.button::before, .button::after {
+        background: rgba(13, 83, 83, 0.971);
+        content: '';
+        position: absolute;
+        z-index: -1;
+        }
+
+.button:hover {
+        color: #80f0b4;
+        }
+
+.button1::after {
+        height: 0;
+        left: 50%;
+        top: 50%;
+        width: 0;
+        }
+
+.button1:hover:after {
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 100%;
+        }
+
+.button2::after {
+        height: 0;
+        left: 50%;
+        top: 50%;
+        width: 0;
+        }
+        
+.button2:hover:after {
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 100%;
+        }
+
+.button3::after {
+            height: 0;
+            left: 50%;
+            top: 50%;
+            width: 0;
+            }
+            
+.button3:hover:after {
+            height: 100%;
+            left: 0;
+            top: 0;
+            width: 100%;
+            }
+
+.bouton-form-compte{
+            width: 30px;
+            height: 10px;
+        }
+.le-footer{
+            padding-top: 100px;
+            color: aliceblue;
+            text-align: center;
+        }
+
+.client-form{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+        }
+.formulaire-compte{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+input {
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    border: 2px solid gray;
+    border-radius: 3%;
+    font-family: inherit;
+    font-size: inherit;
+    color: rgb(17, 16, 38);
+    outline: none;
+    padding: .4rem;
+    margin-top: 5px;
+    margin-bottom: 28px;
+}
+.lastInput{
+    margin-bottom: 2px;
+}
+input:hover{
+    border-color: rgb(209, 227, 177);
+}
+
+input:focus{
+    border-color: rgb(55, 199, 98);
+}
+label{
+    left: 1rem;
+    color: azure;
+}
